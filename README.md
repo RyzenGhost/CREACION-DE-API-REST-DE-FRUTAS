@@ -45,12 +45,12 @@ DELETE	/api/frutas/{id}	Eliminar una fruta
 
 Ejemplos con Curl
 
-Para crear furta:
+Para crear fruta:
 
 curl -X POST http://localhost:8000/api/frutas \
      -H "Content-Type: application/json" \
      -d '{"nombre": "Manzana", "categoria_id": 1, "precio": 0.5}'
 
 
-Para obtener la frua:
+Para obtener la fruta:
 curl http://localhost:8000/api/frutas
